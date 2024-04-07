@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Room</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <main class="app">
+        <h1 class="text-center">
+            <span class="title-app"> ChatRealTime </span>
+        </h1>
+        <section class="chat-app">
+            <section class="row chat-app__wrapper container">
+                <section class="col-lg-6 chat-app__left">
+                    <img class="chat-app__image"
+                        src="https://photos5.appleinsider.com/gallery/49819-97659-iPad-10-flat-sides-xl.jpg"
+                        alt="" />
+                </section>
+                <section class="col-lg-6 chat-app__right">
+                    <h2 class="chat-app__title">Tham Gia Phòng</h2>
+                    <div class="chat-app__title--line"></div>
+                    <form action="/chat.html">
+                        <div class="form-group">
+                            <div class="input-group mb-3 input-group-lg">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i
+                                            class="fa fa-comment-alt"></i></span>
+                                </div>
+                                <input class="form-control" type="text" name="room" id="room" placeholder="room" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group mb-3 input-group-lg">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <i class="fa fa-user-alt"></i>
+                                    </span>
+                                </div>
+                                <input class="form-control" type="text" name="username" id="username"
+                                    placeholder="username" />
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="chat-app__btn-join">
+                                Tham Gia
+                            </button>
+                        </div>
+                    </form>
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

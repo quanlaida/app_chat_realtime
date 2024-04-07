@@ -1,0 +1,26 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chat real time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/src/index.js",
+    "dev": "nodemon app/src/index.js"
+  },
+  "author": "Quach Ngoc Hung",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "bootstrap5": "^1.1.9",
+    "date-format": "^4.0.14",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "qs": "^6.11.0",
+    "sequelize": "^6.28.0",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
